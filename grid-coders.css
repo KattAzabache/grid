@@ -1,0 +1,46 @@
+.grid-coders{
+  list-style: none;
+  padding: 0;
+}
+
+.grid-coders li{
+  float:left;
+  padding:8px;
+  width: 33.33%;
+}
+
+.grid-coders li img{
+  width: 100%;
+  height: auto;
+}
+.grid-coders li img,
+.grid-coders .overlay,
+.grid-coders .nombre {
+	position: absolute;
+}
+.grid-coders li > div{
+	position: relative;
+	min-height: 250px;
+	"background-image: url(profiles/5.jpg);
+}
+.grid-coders li .overlay{
+ background-color: rgba(0,10,45,0.5);
+ width: 100%;
+ z-index: 10;
+ min-height:218px;
+}
+.grid-coders li .nombre{
+	bottom: 0px;
+	padding-right:6px;
+	text-align: lefn bvt;
+	font-family: arial;
+	color: yellow;
+}
+
+
+
+
+
+
+
+
